@@ -57,9 +57,7 @@ class MessagesProviderDefault(private val context: Context): MessagesProvider {
                                 cursor.getStringOrNull(bodyIndex)
                             )
 
-                            for (index in 0 .. 100) {
-                                messages.add(message)
-                            }
+                            messages.add(message)
                         } while (cursor.moveToNext())
                     }
                 }
