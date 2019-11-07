@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Sms Writer</string>
+    <string name="permission_alert">Необходимо разрешить чтение СМС и сохранение файлов на устройстве</string>
+    <string name="go_to_settings_title">Перейти в настройки приложения</string>
+    <string name="empty_sms_string">Нет сообщений</string>
+</resources>
